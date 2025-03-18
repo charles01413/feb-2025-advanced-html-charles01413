@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Lists, Images, Tables & Forms</title>
+    </head>
+    <body>
+        <h2>Ordered Lists</h2>
+        <ol type="A" start="6">
+            <li>Kenya</li>
+            <li>Uganda</li>
+            <li> Togo</li>
+        </ol>
+        <h2>Un-ordered Lists</h2>
+        <ul type="circle">
+            <li>Nairobi</li>
+            <li>Kampala</li>
+            <li>Lome</li>
+        </ul>
+        <h2>Definition Lists</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hyper Text Markup Language</dd>
+        </dl>
+        <h2>images</h2>
+        <h3>Internal Images</h3>
+        <img src="chaliphoto.jpg" alt="Image of sir Charles" width="250" height="350">
+        <h3>External Images</h3>
+        <img src="https://images.pexels.com/photos/247851/pexels-photo-247851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image Showcasing Freedom" height="200" width="350">
+        <h2>HTML Tables</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Age</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Charlie</td>
+                    <td>21</td>
+                    <td>Kenya</td>
+                </tr>
+                <tr>
+                    <td>Heaven</td>
+                    <td>66</td>
+                    <td>Space</td>
+                </tr>
+                <tr>
+                    <td>Vickie</td>
+                    <td>26</td>
+                    <td>Zambia</td>
+                </tr>
+                <tr>
+                    <td>Daniela</td>
+                    <td>19</td>
+                    <td>BurkinaFaso</td>
+                </tr>
+          </tbody>
+          <tfoot>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Age</th>
+                    <th>Country</th>
+                </tr>
+          </tfoot>
+        </table>
+        <h2>HTML Forms</h2>
+        <!--Start of form-->
+        <form action="" method="">
+            <label for="Full_Name">Full Name</label>
+            <input type="text" id="Full_Name" name="Full_Name" required placeholder="Your Full Name">
+            <br><br>
+            <label for="Email">Email:</label>
+            <input type="Email" id="Email" name="Email" placeholder="kenya@example.com">
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br><br>
+            <label for="adress">Adress:</label>
+            <input type="adress" id="adress" name="adress" placeholder="Your adress">
+            <br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="male"> Male
+            <br><br>
+            <label for="hobby">Hobbies</label>
+            <input type="checkbox" name="hobby" value="Travel"> Travel
+            <input type="checkbox" name="hobby" value="Eating"> Eating
+            <input type="checkbox" name="hobby" value="Swimming"> Swimming
+            <input type="checkbox" name="hobby" value="Reading"> Reading
+            <br><br>
+            <label>Country</label>
+            <select name="country" id="country">
+            <option>--Select Country--</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Egypt">Egypt</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Tanzania">Tanzania</option>
+            </select>
+            <br><br>
+            <button type="Sunmit">Submit</button>
+            <input type="reset" value="Cancel/Reset">
+            
+
+        </form>
+        
+        
+    </body>
+</html>
